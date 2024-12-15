@@ -15,4 +15,8 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
     name: i18n(I18nKey.archive),
     url: '/archive/',
   },
+  [LinkPreset.Status]: {
+    name: i18n(I18nKey.status),
+    url: 'http://117.72.50.32:2078/status/shizkuu',
+  },
 }

@@ -47,6 +47,11 @@ export const navBarConfig: NavBarConfig = {
       url: 'https://github.com/HSzkuu/blog',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
+    {
+      name: 'Status',
+      url: 'http://117.72.50.32:2078/status/shizkuu',     // Internal links should not include the base path, as it is automatically added
+      external: true,                               // Show an external link icon and will open in a new tab
+    },
   ],
 }
 
